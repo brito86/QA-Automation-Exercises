@@ -1,5 +1,4 @@
 package Exercises;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
@@ -12,6 +11,8 @@ public class CheckBoxSelectionByClassName {
 
 		System.setProperty("webdriver.chrome.driver", "Drivers\\chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
+		
+	
 
 		driver.get("https://www.salesforce.com/form/signup/elf-v2-login/?d=70130000000Enus");
 		driver.manage().window().maximize();
